@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+table{
+  padding: 100px 50px ;
+}
+
+table, th, td {
+  border: 1px solid;
+}
