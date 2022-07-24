@@ -16,8 +16,8 @@ export default function Home() {
                     <textarea className="form-control" style={{ "height": "100px" }} name="content" required></textarea>
                     <label for="content">Content</label>
                 </div>    
-                <div class="row g-3 mb-3">
-                    <div class="col">
+                <div className="row g-3 mb-3">
+                    <div className="col">
                         <div className="input-group mb-3">
                             <label className="input-group-text" htmlFor="deploymentStatus">Deployment Status</label>
                             <select className="form-select" name="deploymentStatus" defaultValue={'DEFAULT'} required>
@@ -28,15 +28,15 @@ export default function Home() {
                             </select>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="input-group mb-3">
-                            <span class="input-group-text">Deployment Date</span>
+                    <div className="col">
+                        <div className="input-group mb-3">
+                            <span className="input-group-text">Deployment Date</span>
                             <input type="date" className="form-control" name="deploymentDate" required />
                         </div>
                     </div>
                 </div>
-                <input class="btn btn-dark me-2" type="submit"value="Submit" />
-                <input class="btn btn-dark ms-2" type="reset" value="Reset" />
+                <input className="btn btn-dark me-2" type="submit"value="Submit" />
+                <input className="btn btn-dark ms-2" type="reset" value="Reset" />
             </form>
         </div>
     )
