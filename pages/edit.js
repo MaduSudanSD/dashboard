@@ -14,7 +14,7 @@ export default function Home() {
                 </div>
                 <div className="mb-3 form-floating">
                     <textarea className="form-control" style={{ "height": "100px" }} name="content" required></textarea>
-                    <label for="content">Content</label>
+                    <label htmlFor="content">Content</label>
                 </div>    
                 <div className="row g-3 mb-3">
                     <div className="col">
